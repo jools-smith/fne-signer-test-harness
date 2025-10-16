@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Poperties file defining SKU to Feature mapping for Nova FNE</comment>
+
+    <entry key="nova.vendor"><![CDATA[SCHNEIDR]]></entry>
+   
+    <entry key="nova.sku.1"><![CDATA[LV850002]]></entry>
+    <entry key="nova.sku.1.feature"><![CDATA[EnergyPerPhase]]></entry>
+    <entry key="nova.sku.1.version"><![CDATA[1.0]]></entry>
+    <entry key="nova.sku.1.count"><![CDATA[1]]></entry>
+                        
+    <entry key="nova.sku.2"><![CDATA[LV850003]]></entry>
+    <entry key="nova.sku.2.feature"><![CDATA[WaveformCaptureOnTripEvent]]></entry> 
+    <entry key="nova.sku.2.version"><![CDATA[1.0]]></entry>
+    <entry key="nova.sku.2.count"><![CDATA[1]]></entry>
+         
+    <entry key="nova.sku.3"><![CDATA[LV850004]]></entry>
+    <entry key="nova.sku.3.feature"><![CDATA[PowerRestorationAssistant]]></entry> 
+    <entry key="nova.sku.3.version"><![CDATA[1.0]]></entry>
+    <entry key="nova.sku.3.count"><![CDATA[1]]></entry>
+    
+    <entry key="nova.sku.4"><![CDATA[LV850005]]></entry>
+    <entry key="nova.sku.4.feature"><![CDATA[MasterpactOperationAssistant]]></entry>                                                                                                       
+    <entry key="nova.sku.4.version"><![CDATA[1.0]]></entry>
+    <entry key="nova.sku.4.count"><![CDATA[1]]></entry> 
+                        
+</properties>

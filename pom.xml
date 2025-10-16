@@ -1,0 +1,113 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.6</version>
+	</parent>
+	<groupId>com.revenera.gcs</groupId>
+	<artifactId>fne-signer-test-harness</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>FNE Signer Test Harness</name>
+
+	<packaging>jar</packaging>
+
+	<description>FNE Signer Test Harness</description>
+
+
+	<developers>
+		<developer>
+			<id>jps</id>
+			<name>Jools Smith</name>
+			<email>julian.smith@revenera.com</email>
+			<organization>Revenera</organization>
+			<organizationUrl>https://www.revenera.com</organizationUrl>
+			<roles>
+				<role>solution architect</role>
+			</roles>
+			<timezone>Europe/London</timezone>
+		</developer>
+	</developers>
+
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.revenera.gcs</groupId>
+			<artifactId>FneSigner</artifactId>
+			<version>3.0-BETA</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.annotation</groupId>
+			<artifactId>javax.annotation-api</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.flexera.fne</groupId>
+			<artifactId>binary</artifactId>
+			<version>2024.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--
+				<configuration>
+					<mainClass>com.revenera.gcs.Application</mainClass>
+				</configuration>
+				-->
+			</plugin>
+		</plugins>
+
+	</build>
+</project>

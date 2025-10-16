@@ -1,0 +1,31 @@
+endpoints:
+  shutdown:
+    sensitive: false
+    enabled: true
+  enabled: false
+  info:
+    enabled: true
+management:
+  endpoint:
+    enabled: true
+  info:
+    enabled: true
+  endpoints:
+    web:
+      exposure:
+        included: '*'
+welcome:
+  message: Revenera GCS Nova Signer Test Harness (c) 2025 Jools Smith
+spring:
+  output:
+    ansi:
+      enabled: always
+  main:
+    banner-mode: 'off'
+  servlet:
+    multipart:
+      max-file-size: 150000000
+      max-request-size: 150000000
+
+server:
+  port: '19090'
