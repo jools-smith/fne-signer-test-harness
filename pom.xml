@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.revenera.gcs</groupId>
 	<artifactId>fne-signer-test-harness</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-RELEASE</version>
 	<name>FNE Signer Test Harness</name>
 
 	<packaging>jar</packaging>
